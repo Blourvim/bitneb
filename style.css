@@ -49,7 +49,7 @@ section{
     height: 5px;
     width: 100%;
     position: absolute;
-    top: 65%; left: 50%;
+    top: 62%; left: 50%;
     transform: translate(-50%,-50%);
   
 
@@ -64,9 +64,9 @@ section{
     padding: 0;
     margin: 0px;
     margin-top: 30px;
-    font-size: 1.2em;
-    font-weight: 500;
-    width: 170px;
+    font-size: 1em;
+    font-weight: normal;
+        width: 170px;
 
 }
 
@@ -76,18 +76,18 @@ section{
     text-align: center;
     padding: 0;
     margin: 0;
-    margin-bottom: 20px;
-    font-size: 1.2em;
-    font-weight: 500;
-    width: 170px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    font-weight: normal;
+        width: 170px;
 
 
 }
 
 .card-image{
-    -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter:         drop-shadow(5px 5px 5px #222); 
-    width: 170px;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.226)); 
+    filter:         drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.226));  
+    width: 165px;
     margin-left: 13px;
 }
 .card-text{
