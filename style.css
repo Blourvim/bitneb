@@ -115,6 +115,11 @@ section{
     -webkit-filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.596));
     filter:         drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.596)); 
   }
+
+  .button-section{
+      
+  }
+
   button:hover {
     color: #001F3F;
     background-color: #5f7beb;
@@ -142,10 +147,20 @@ section{
 
   .footer-content{
     display: flex;
-    max-width: 65%;
+    width: 90%;
+    max-width: 800px;
     margin: 0 auto;
 
   }
+
+.footer-logo{
+    width: 100%;
+    min-width: 10rem;
+    max-width: 170px;
+    max-height: 100px;
+    height: auto;
+}
+
   .footer-header{
       margin-top: 20px;
     margin-bottom: 0px;
@@ -174,4 +189,5 @@ section{
     margin-left: 40px;
     height: 40px;
     display: inline-block;
+    min-width: 120px;
   }
