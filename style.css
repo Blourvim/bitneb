@@ -189,12 +189,22 @@ section{
       max-width: 78ch;
 
   }
-  footer .button{
+  .footer-button{
+    background-color: #3F5BCD;
     border: none;
     border-radius: 9px;
+    color: white;
+    height: 40px;
+    width: 150px; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.596));
+    filter:         drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.596));
     margin-top: 30px;
     margin-left: 40px;
-    height: 40px;
     display: inline-block;
     min-width: 120px;
+    font-size: 60%;
   }
